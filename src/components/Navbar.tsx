@@ -1,6 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { Ticket, User, Search, MapPin, Phone } from 'lucide-react';
+import { Link } from "react-router-dom";
+import { Ticket, User, Search, MapPin, Phone } from "lucide-react";
 
 const Navbar = () => {
   return (
@@ -50,6 +49,6 @@ const Navbar = () => {
       </div>
     </nav>
   );
-}
+};
 
-export default Navbar
+export default Navbar;

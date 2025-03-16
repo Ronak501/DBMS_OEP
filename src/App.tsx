@@ -1,12 +1,11 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import HomePage from './pages/HomePage';
-import EventDetailsPage from './pages/EventDetailsPage';
-import BookingPage from './pages/BookingPage';
-import ProfilePage from './pages/ProfilePage';
-import VenuePage from './pages/VenuePage';
-import ContactPage from './pages/ContactPage';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import HomePage from "./pages/HomePage";
+import EventDetailsPage from "./pages/EventDetailsPage";
+import BookingPage from "./pages/BookingPage";
+import ProfilePage from "./pages/ProfilePage";
+import VenuePage from "./pages/VenuePage";
+import ContactPage from "./pages/ContactPage";
 
 function App() {
   return (

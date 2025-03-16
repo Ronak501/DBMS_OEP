@@ -1,18 +1,21 @@
-import React from 'react';
-import { Mail, Phone, MapPin, Clock, MessageSquare } from 'lucide-react';
+import { Mail, Phone, MapPin, Clock, MessageSquare } from "lucide-react";
 
 const ContactPage = () => {
   return (
     <div className="max-w-7xl mx-auto">
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold text-gray-900 mb-4">Contact Us</h1>
-        <p className="text-xl text-gray-600">We're here to help with all your event needs</p>
+        <p className="text-xl text-gray-600">
+          We're here to help with all your event needs
+        </p>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
         <div className="space-y-8">
           <div className="bg-white rounded-xl shadow-lg p-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Get in Touch</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">
+              Get in Touch
+            </h2>
             <form className="space-y-6">
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">
@@ -63,7 +66,9 @@ const ContactPage = () => {
           </div>
 
           <div className="bg-white rounded-xl shadow-lg p-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Contact Information</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">
+              Contact Information
+            </h2>
             <div className="space-y-4">
               <div className="flex items-center text-gray-600">
                 <Mail className="h-5 w-5 mr-3" />
@@ -87,38 +92,50 @@ const ContactPage = () => {
 
         <div className="space-y-8">
           <div className="bg-white rounded-xl shadow-lg p-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Frequently Asked Questions</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">
+              Frequently Asked Questions
+            </h2>
             <div className="space-y-6">
               <div>
-                <h3 className="font-semibold text-gray-900 mb-2">How do I get a refund?</h3>
+                <h3 className="font-semibold text-gray-900 mb-2">
+                  How do I get a refund?
+                </h3>
                 <p className="text-gray-600">
-                  Refunds can be requested up to 48 hours before the event. Visit your profile page
-                  and select the ticket you wish to refund.
+                  Refunds can be requested up to 48 hours before the event.
+                  Visit your profile page and select the ticket you wish to
+                  refund.
                 </p>
               </div>
               <div>
-                <h3 className="font-semibold text-gray-900 mb-2">Can I transfer my tickets?</h3>
+                <h3 className="font-semibold text-gray-900 mb-2">
+                  Can I transfer my tickets?
+                </h3>
                 <p className="text-gray-600">
-                  Yes, tickets can be transferred to another person through your profile page up
-                  until the day of the event.
+                  Yes, tickets can be transferred to another person through your
+                  profile page up until the day of the event.
                 </p>
               </div>
               <div>
-                <h3 className="font-semibold text-gray-900 mb-2">What payment methods do you accept?</h3>
+                <h3 className="font-semibold text-gray-900 mb-2">
+                  What payment methods do you accept?
+                </h3>
                 <p className="text-gray-600">
-                  We accept all major credit cards, PayPal, and Apple Pay for ticket purchases.
+                  We accept all major credit cards, PayPal, and Apple Pay for
+                  ticket purchases.
                 </p>
               </div>
             </div>
           </div>
 
           <div className="bg-white rounded-xl shadow-lg p-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Live Chat Support</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">
+              Live Chat Support
+            </h2>
             <div className="text-center">
               <MessageSquare className="h-16 w-16 text-indigo-600 mx-auto mb-4" />
               <p className="text-gray-600 mb-6">
-                Need immediate assistance? Our support team is available for live chat during
-                business hours.
+                Need immediate assistance? Our support team is available for
+                live chat during business hours.
               </p>
               <button className="bg-indigo-600 text-white px-8 py-3 rounded-lg hover:bg-indigo-700 transition duration-200">
                 Start Chat
